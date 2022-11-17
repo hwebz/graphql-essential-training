@@ -9,7 +9,15 @@ app.get('/', (req, res) => {
 });
 
 const root = {
-    hello: () => "Hi, I'm hdevz"
+    product: () => {
+        return {
+            id: 28712341,
+            name: "widget",
+            description: "Beautiful widget to use in your garden",
+            price: 34.99,
+            soldout: false
+        }
+    }
 };
 
 app.use('/graphql', graphqlHTTP({
