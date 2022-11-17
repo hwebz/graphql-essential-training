@@ -15,6 +15,7 @@ mutation {
     description: "Another widget for your garden",
     price: 37.79,
     soldout: false,
+    inventory: 21,
     stores: [
       {
         store: "First store"
@@ -26,6 +27,8 @@ mutation {
   }){
     price
     name
+    id
+    inventory
   }
 }
 ```
