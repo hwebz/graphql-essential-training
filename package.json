@@ -1,0 +1,19 @@
+{
+  "name": "graphql-essential-training",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://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@github.com/hwebz/graphql-essential-training.git"
+  },
+  "author": "hdevz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hwebz/graphql-essential-training/issues"
+  },
+  "homepage": "https://github.com/hwebz/graphql-essential-training#readme"
+}
