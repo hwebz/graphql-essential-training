@@ -6,14 +6,22 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://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@github.com/hwebz/graphql-essential-training.git"
-  },
   "author": "hdevz",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/hwebz/graphql-essential-training/issues"
   },
-  "homepage": "https://github.com/hwebz/graphql-essential-training#readme"
+  "homepage": "https://github.com/hwebz/graphql-essential-training#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "express-graphql": "^0.12.0",
+    "graphql": "^15.8.0",
+    "nodemon": "^2.0.20"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.19.3",
+    "@babel/core": "^7.20.2",
+    "@babel/node": "^7.20.2",
+    "@babel/preset-env": "^7.20.2"
+  }
 }
