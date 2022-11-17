@@ -15,7 +15,15 @@ const root = {
             name: "widget",
             description: "Beautiful widget to use in your garden",
             price: 34.99,
-            soldout: false
+            soldout: false,
+            stores: [
+                {
+                    store: "Panadesa"
+                },
+                {
+                    store: "Los Angeles"
+                }
+            ]
         }
     }
 };
