@@ -32,3 +32,7 @@ mutation {
   }
 }
 ```
+
+## Create DB connectors
+
+> npm i mongoose sequelize sqlite3 casual lodash
