@@ -94,6 +94,25 @@ query {
 } 	
 ```
 
+Querying with fragments
+```
+query {
+  widget1:getProduct(id:"<product_id>") {
+    ...widgetFragment
+  }
+  widget2:getProduct(id:"<product_id>") {
+    ...widgetFragment
+  }
+} 	
+
+fragment widgetFragment on Product {
+  name
+  price
+  description
+  soldout
+}
+```
+
 ## Create DB connectors
 
 > npm i mongoose sequelize sqlite3 casual lodash
