@@ -52,6 +52,10 @@ mutation {
     inventory
   }
 }
+
+mutation {
+  deleteProduct(id: "<product_id>")
+}
 ```
 
 ```
