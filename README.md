@@ -33,6 +33,18 @@ mutation {
 }
 ```
 
+```
+query {
+  getProduct(id:<widget_id>){
+    name
+    description
+    price
+    soldout
+    inventory
+  }
+}
+```
+
 ## Create DB connectors
 
 > npm i mongoose sequelize sqlite3 casual lodash
