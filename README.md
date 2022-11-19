@@ -14,7 +14,7 @@ mutation {
     name: "widget",
     description: "Another widget for your garden",
     price: 37.79,
-    soldout: false,
+    soldout: ONSALE,
     inventory: 21,
     stores: [
       {
