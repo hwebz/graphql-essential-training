@@ -31,6 +31,27 @@ mutation {
     inventory
   }
 }
+
+mutation {
+  updateProduct(input:{
+    id: "<product_id>",
+    name: "widget 3",
+    description: "Another widget for your garden 3",
+    price: 37.79,
+    soldout: ONSALE,
+    inventory: 21,
+    stores: [
+      {
+        store: "First store"
+      }
+    ]
+  }){
+    price
+    name
+    id
+    inventory
+  }
+}
 ```
 
 ```

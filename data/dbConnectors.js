@@ -39,15 +39,14 @@ const Categories = sequalize.define('categories', {
     description: DataTypes.STRING
 });
 
-// Only run this 1 time
-// Categories.sync({ force: true }).then(() => {
-//     _.times(5, (i) => {
-//         Categories.create({
-//             category: casual.word,
-//             description: casual.sentence,
-//         })
-//     })
-// })
+Categories.sync({ force: true }).then(() => {
+    _.times(5, (i) => {
+        Categories.create({
+            category: casual.word,
+            description: casual.sentence,
+        })
+    })
+})
 
 export {
     Widgets,
