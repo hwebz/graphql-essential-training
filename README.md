@@ -68,6 +68,16 @@ query {
     inventory
   }
 }
+query {
+  getAllProducts {
+    id
+    name
+    description
+    price
+    soldout
+    inventory
+  }
+}
 ```
 
 ## Create DB connectors

@@ -19,9 +19,11 @@ const schema = buildSchema(`
     type Store {
         store: String
     }
+    
 
     type Query {
         getProduct(id: ID): Product
+        getAllProducts: [Product]
     }
 
     input StoreInput {
