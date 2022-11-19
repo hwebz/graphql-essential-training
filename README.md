@@ -80,6 +80,20 @@ query {
 }
 ```
 
+Querying with aliases
+```
+query {
+  price:getProduct(id:"<product_id>") {
+    price
+    description
+  }
+  description:getProduct(id:"<product_id>") {
+    price
+    description
+  }
+} 	
+```
+
 ## Create DB connectors
 
 > npm i mongoose sequelize sqlite3 casual lodash
